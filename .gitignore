@@ -1,0 +1,19 @@
+# Local Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+
+# Generated vector index. Rebuild with ingest.py.
+chroma_kenyan_law_db/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
